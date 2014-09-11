@@ -11,21 +11,37 @@
 
         // Constructeur
         public Artiste(string nom, string nat)
-        { nomArtiste = nom; nationalite = nat; }
+        { 
+            nomArtiste = nom; 
+            nationalite = nat; 
+        }
 
         // Accesseurs
         public string GetNomArtiste()
-        { return nomArtiste; }
-        public string GetNationalité()
-        { return nationalite; }
-        public void SetNom(string nom)
-        { nomArtiste = nom; }
-        public void SetNationalité(string nat)
-        { nationalite = nat; }
+        { 
+            return nomArtiste;
+        }
 
+        public string GetNationalité()
+        { 
+            return nationalite;
+        }
+
+        public void SetNom(string nom)
+        {
+            nomArtiste = nom;
+        }
+
+        public void SetNationalité(string nat)
+        { 
+            nationalite = nat;
+        }
+		
         // Affiche le nom et la nationalité de l’artiste
-        public void AfficheArtiste()
-        { }
+        public string AfficheArtiste()
+		{ 
+              return ("Nom : "+GetNomArtiste()+" . Nationalité : "+GetNationalité());
+		}
     }
 
     //--------------
@@ -36,34 +52,61 @@
         // Attributs
         private string nomOeuvre;
         private float prixOeuvre;
+        private Artiste artiste;
 
         // Constructeur. 
         public Oeuvre(string nom, float prix)
-        { nomOeuvre = nom; prixOeuvre = prix; }
+        { 
+            this.nomOeuvre = nom;
+            this.prixOeuvre = prix; 
+        }
 
         // Constructeur surchargé
         public Oeuvre(string nom, float prix, Artiste art)
-        { }
+        {
+            this.nomOeuvre = nom;
+            this.prixOeuvre = prix;
+            this.artiste = art;
+		    
+		}
 
         // Accesseurs
         public string GetNomOeuvre()
-        { return nomOeuvre; }
+        { 
+            return nomOeuvre; 
+        }
+        
         public float GetPrixOeuvre()
-        { return prixOeuvre; }
+        { 
+            return prixOeuvre; 
+        }
+        
         public void SetNomOeuvre(string nom)
-        { nomOeuvre = nom; }
+        { 
+            nomOeuvre = nom; 
+        }
+        
         public void SetPrixOeuvre(float prix)
-        { prixOeuvre = prix; }
+        {
+            prixOeuvre = prix; 
+        }
 
         // Accesseurs sur l'artiste de l'oeuvre
         public Artiste GetArtiste()
-        { return null; }
+        { 
+            return artiste; 
+        }
+        
         public void SetArtiste(Artiste art)
-        { }
+        {
+            this.artiste = art;
+		}
 
         // Affiche les caratéristiques de l'oeuvre avec son artiste
-        public void AffichageOeuvre()
-        { }
+        public string AffichageOeuvre()
+        { 
+		    return (GetNomOeuvre() +" dessiné par "+ GetArtiste().GetNomArtiste() +" . Prix  : "+GetPrixOeuvre()+" .");
+		}
     }
 
     //-------------
@@ -74,6 +117,9 @@
         // Attributs
         private string nomSalle;
         private float montantAssurance;
+        private int NbOeuvres;
+        private Oeuvre uneOeuvre;
+
 
         // Constructeur
         public Salle(string nomSalle, float montant)
@@ -86,21 +132,47 @@
 
         // Accesseurs 
         public string GetNomSalle()
-        { return nomSalle; }
-        public float GetMontantAssurance()
-        { return montantAssurance; }
-        public void SetNomSalle(string nom)
-        { this.nomSalle = nom; }
-        public void SetMontantAssurance(float mtt)
-        { this.montantAssurance = mtt; }
+        { 
+            return nomSalle; 
+        }
 
+        public float GetMontantAssurance()
+        { 
+            return montantAssurance;
+        }
+
+        public void SetNomSalle(string nom)
+        { 
+            this.nomSalle = nom;
+        }
+
+        public void SetMontantAssurance(float mtt)
+        { 
+            this.montantAssurance = mtt;
+        }
+		
         // Retourne le nombre d'oeuvres
         public int GetNbOeuvres()
-        { return 0; }
+        { 
+            return NbOeuvres; 
+        }
 
         // Retourne l’oeuvre dont le nom est passé en paramètre ou "null" sinon trouvée.
         public Oeuvre GetOeuvre(string nom)
-        { return null; }
+        {
+            if (this.uneOeuvre.GetNomOeuvre() == nom)
+            {
+                return uneOeuvre;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        //
+        // a finir. Utiliser un tableau ?
+        //
 
         // Retourne vrai si l'Oeuvre dont le nom est passé en paramètre existe dans la salle, faux sinon.
         public bool ExisteOeuvre(string nom)
@@ -130,12 +202,22 @@
         // Affiche les caractéristiques de la salle (nom et montant de l’assurance) 
         // et des œuvres avec artiste.
         public void AfficheOeuvresSalle()
-        { }
+        { 
+		
+		
+		
+		}
     }
 
     //-------------
     // Classe MUSEE
     //-------------
+	
+	
+		//
+		// TO DO !!!!
+		//
+	
     public class Musee
     {
         // Attributs
