@@ -1,4 +1,5 @@
-﻿namespace METIER
+﻿using System.Collections.Generic;
+namespace METIER
 {
     //---------------
     // Classe ARTISTE
@@ -80,7 +81,7 @@
         { 
             return prixOeuvre; 
         }
-        
+    
         public void SetNomOeuvre(string nom)
         { 
             nomOeuvre = nom; 
@@ -118,7 +119,7 @@
         private string nomSalle;
         private float montantAssurance;
         private int NbOeuvres;
-        private Oeuvre uneOeuvre;
+        private List<Oeuvre> ListeOeuvres;
 
 
         // Constructeur
@@ -160,19 +161,10 @@
         // Retourne l’oeuvre dont le nom est passé en paramètre ou "null" sinon trouvée.
         public Oeuvre GetOeuvre(string nom)
         {
-            if (this.uneOeuvre.GetNomOeuvre() == nom)
-            {
-                return uneOeuvre;
-            }
-            else
-            {
+            
                 return null;
-            }
+        
         }
-
-        //
-        // a finir. Utiliser un tableau ?
-        //
 
         // Retourne vrai si l'Oeuvre dont le nom est passé en paramètre existe dans la salle, faux sinon.
         public bool ExisteOeuvre(string nom)
