@@ -1,0 +1,33 @@
+D:\Henri\Travail\C#\a. Cours - ODBC\bd1\obj\Debug\bd1.exe
+D:\Henri\Travail\C#\a. Cours - ODBC\bd1\obj\Debug\bd1.pdb
+D:\Henri\Travail\C#\a. Cours - ODBC\bd1\obj\Debug\ResolveAssemblyReference.cache
+D:\Henri\Travail\C#\a. Cours - ODBC\bd1\bin\Debug\bd1.exe
+D:\Henri\Travail\C#\a. Cours - ODBC\bd1\bin\Debug\bd1.pdb
+C:\Gimenez\C#\bd1\obj\Debug\bd1.exe
+C:\Gimenez\C#\bd1\obj\Debug\bd1.pdb
+C:\Gimenez\C#\bd1\bin\Debug\bd1.exe
+C:\Gimenez\C#\bd1\bin\Debug\bd1.pdb
+C:\Gimenez\C#\bd1\obj\Debug\ResolveAssemblyReference.cache
+D:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\k. Mode Connecté et Déconnecté\bd1\obj\Debug\bd1.exe
+D:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\k. Mode Connecté et Déconnecté\bd1\obj\Debug\bd1.pdb
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\ODBC\k. Mode Connecté et Déconnecté\bd1\obj\Debug\bd1.exe
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\ODBC\k. Mode Connecté et Déconnecté\bd1\obj\Debug\bd1.pdb
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\ODBC\k. Classe technique. Modes Connecté et Déconnecté\bd1\obj\Debug\bd1.exe
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\ODBC\k. Classe technique. Modes Connecté et Déconnecté\bd1\obj\Debug\bd1.pdb
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\ODBC\k. Classe technique. Modes Connecté et Déconnecté\bd1\bin\Debug\bd1.exe
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\ODBC\k. Classe technique. Modes Connecté et Déconnecté\bd1\bin\Debug\bd1.pdb
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\ODBC\k. Classe technique. Modes Connecté et Déconnecté\bd1\obj\Debug\ResolveAssemblyReference.cache
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\k. Classe technique. Modes Connecté et Déconnecté\bd1\obj\Debug\bd1.exe
+S:\Henri\BTS SIO\Développement\C#\3. BD\b. Ateliers\k. Classe technique. Modes Connecté et Déconnecté\bd1\obj\Debug\bd1.pdb
+S:\Henri\Tempo\C#\BD\k. Classe technique. Modes Connecté et Déconnecté\bd1\obj\Debug\bd1.exe
+S:\Henri\Tempo\C#\BD\k. Classe technique. Modes Connecté et Déconnecté\bd1\obj\Debug\bd1.pdb
+S:\Henri\Tempo\C#\BD\c. Classe technique\bd1\obj\Debug\bd1.exe
+S:\Henri\Tempo\C#\BD\c. Classe technique\bd1\obj\Debug\bd1.pdb
+S:\Henri\Tempo\C#\BD\c. Classe technique\bd1\bin\Debug\bd1.exe
+S:\Henri\Tempo\C#\BD\c. Classe technique\bd1\bin\Debug\bd1.pdb
+S:\Henri\BTS SIO\Développement\1. C#\03. BD\Ateliers\Codes\k. Classe technique. Modes Connecté et Déconnecté\Classe technique\obj\Debug\bd1.exe
+S:\Henri\BTS SIO\Développement\1. C#\03. BD\Ateliers\Codes\k. Classe technique. Modes Connecté et Déconnecté\Classe technique\obj\Debug\bd1.pdb
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni\Classe technique\obj\Debug\bd1.exe
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni\Classe technique\obj\Debug\bd1.pdb
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni\Classe technique\bin\Debug\bd1.exe
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni\Classe technique\bin\Debug\bd1.pdb
