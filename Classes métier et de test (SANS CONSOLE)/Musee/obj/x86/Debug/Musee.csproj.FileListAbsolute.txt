@@ -1,0 +1,38 @@
+D:\Henri\Tempo\Musee\Musee\bin\Debug\Musee.exe
+D:\Henri\Tempo\Musee\Musee\bin\Debug\Musee.pdb
+D:\Henri\Tempo\Musee\Musee\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Henri\Tempo\Musee\Musee\obj\x86\Debug\Musee.exe
+D:\Henri\Tempo\Musee\Musee\obj\x86\Debug\Musee.pdb
+H:\A faire\C#\Musee\Musee\obj\x86\Debug\Musee.exe
+H:\A faire\C#\Musee\Musee\obj\x86\Debug\Musee.pdb
+H:\A faire\C#\Musee\Musee\bin\Debug\Musee.exe
+H:\A faire\C#\Musee\Musee\bin\Debug\Musee.pdb
+H:\A faire\C#\Musee\Musee\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\Musee\obj\x86\Debug\Musee.exe
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\Musee\obj\x86\Debug\Musee.pdb
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\List\Musee\obj\x86\Debug\Musee.exe
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\List\Musee\obj\x86\Debug\Musee.pdb
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\List\Musee\bin\Debug\Musee.exe
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\List\Musee\bin\Debug\Musee.pdb
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\List\Musee\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\Musee\bin\Debug\Musee.exe
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\Musee\bin\Debug\Musee.pdb
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\Musee\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\Enoncé\Musee\obj\x86\Debug\Musee.exe
+S:\Henri\BTS SIO\Développement\C#\4. POO\c. Ateliers\Musee\Enoncé\Musee\obj\x86\Debug\Musee.pdb
+S:\Henri\BTS SIO\PPE\PPE03-04\Musee\On fourni\Musee\obj\x86\Debug\Musee.exe
+S:\Henri\BTS SIO\PPE\PPE03-04\Musee\On fourni\Musee\obj\x86\Debug\Musee.pdb
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni - Complet\Musee\obj\x86\Debug\Musee.exe
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni - Complet\Musee\obj\x86\Debug\Musee.pdb
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni - Complet\Musee\bin\Debug\Musee.exe
+S:\Henri\BTS SIO\Promos\02\PPE\PPE03-04\1. Musee d'art\1. On fourni - Complet\Musee\bin\Debug\Musee.pdb
+C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\Musee.exe
+C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\Musee.pdb
+C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\Musee.csprojResolveAssemblyReference.cache
+C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\bin\Debug\Musee.exe
+C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\bin\Debug\Musee.pdb
+C:\Users\Root\Desktop\Classes métier et de test (SANS CONSOLE)\Musee\obj\x86\Debug\Musee.exe
+C:\Users\Root\Desktop\Classes métier et de test (SANS CONSOLE)\Musee\obj\x86\Debug\Musee.pdb
+C:\Users\Root\Desktop\Classes métier et de test (SANS CONSOLE)\Musee\bin\Debug\Musee.exe
+C:\Users\Root\Desktop\Classes métier et de test (SANS CONSOLE)\Musee\bin\Debug\Musee.pdb
+C:\Users\Root\Desktop\Classes métier et de test (SANS CONSOLE)\Musee\obj\x86\Debug\Musee.csprojResolveAssemblyReference.cache
