@@ -39,7 +39,7 @@ CREATE TABLE Musee(
 
 INSERT INTO Artiste VALUES("Monet", "Francaise");
 INSERT INTO Artiste VALUES("Manet", "Francaise");
-INSERT INTO Artiste VALUES("Van Gogh", "Neelandaise");
+INSERT INTO Artiste VALUES("Van Gogh", "Neerlandaise");
 
 INSERT INTO Oeuvre VALUES("Le Dejeuner sur l'herbe", 500000, "Monet", "Francaise");
 INSERT INTO Oeuvre VALUES("Au bord de l'eau", 350000, "Monet", "Francaise");
@@ -68,5 +68,7 @@ SELECT * FROM Oeuvre;
 SELECT * FROM Artiste;
 
 
+SELECT nomOeuvre, prixOeuvre, nomArtisteOeuvre, nomsalleOeuvre FROM Oeuvre ORDER BY nomOeuvre;
 
+SELECT nomSalle, montantAssurance, monMuseeSalle FROM Salle ORDER BY nomSalle;
 
