@@ -70,10 +70,10 @@ namespace TECHNIQUE
             List<string> listStr = new List<string>();
 
             string requet = "SELECT nomArtiste, nationalite FROM Artiste ORDER BY nomArtiste;";
-            listStr  = this.Requeteur(requet);
+            listStr = this.Requeteur(requet);
 
             int i = 0;
-            while(i < listStr.Count)
+            while (i < listStr.Count)
             {
                 listA.Add(new Artiste(listStr[i], listStr[i + 1]));
                 i += 2;
@@ -85,7 +85,31 @@ namespace TECHNIQUE
         public List<Oeuvre> GetOeuvre()
         {
             List<Oeuvre> listO = new List<Oeuvre>();
+            List<Artiste> listA = new List<Artiste>();
             List<string> listStr = new List<string>();
+
+            listA = this.GetArtiste();
+
+            string requet = "SELECT nomOeuvre, prixOeuvre, nomArtisteOeuvre, nomsalleOeuvre FROM Oeuvre ORDER BY nomOeuvre;";
+            listStr = this.Requeteur(requet);
+
+            int i = 0;
+            while (i < listStr.Count)
+            {
+                string nom = listStr[i];
+                float prix = float.Parse(listStr[i + 1]);
+                Artiste a = new Artiste("", "");
+
+                for (int j = 0; j < listA.Count; j++)
+                {
+                    if (listStr[i + 2] == listA[j].GetNomArtiste())
+                        a = new Artiste(listA[j].GetNomArtiste(), listA[j].GetNationalité());
+                }
+
+                Oeuvre o = new Oeuvre(nom, prix, a);
+                listO.Add(o);
+                i += 4;
+            }
 
 
             return listO;
@@ -93,18 +117,78 @@ namespace TECHNIQUE
 
         public List<Salle> GetSalle()
         {
+            List<Oeuvre> listO = new List<Oeuvre>();
             List<Salle> listS = new List<Salle>();
             List<string> listStr = new List<string>();
+
+            listO = this.GetOeuvre();
+
+            string requet = "SELECT nomSalle, montantAssurance, monMuseeSalle FROM Salle ORDER BY nomSalle;";
+            listStr = this.Requeteur(requet);
+
+            int i = 0;
+            while (i < listStr.Count)
+            {
+                string nom = listStr[i];
+                float mont = float.Parse(listStr[i + 1]);
+                Salle s = new Salle(nom, mont);
+
+                for (int j = 0; j < listO.Count; j++)
+                {
+                    if (listO[j].GetArtiste().GetNationalité() == nom)
+                        s.AjouteOeuvre(listO[j]);
+                }
+
+                listS.Add(s);
+                i += 3;
+            }
 
             return listS;
         }
 
-        public List<Musee> GetMusee()
+        public Musee GetMusee()
         {
-            List<Musee> listM = new List<Musee>();
             List<string> listStr = new List<string>();
+            List<Artiste> listA = new List<Artiste>();
+            List<Oeuvre> listO = new List<Oeuvre>();
+            List<Salle> listS = new List<Salle>();
 
-            return listM;
+            listA = this.GetArtiste();
+            listO = this.GetOeuvre();
+            listS = this.GetSalle();
+
+
+            string requet = "SELECT monMusee FROM Musee;";
+            listStr = this.Requeteur(requet);
+
+            Musee m = new Musee(listStr[0]);
+
+            for (int i = 0; i < listA.Count; i++)
+            {
+                m.CreerArtiste(listA[i]);
+            }
+
+            for (int i = 0; i < listS.Count; i++)
+            {
+                m.CreerSalle(listS[i]);
+            }
+
+            for (int i = 0; i < listO.Count; i++)
+            {
+                Salle s = new Salle("", 0);
+                for (int j = 0; j < listS.Count; j++)
+                {
+
+                    if (listO[i].GetArtiste().GetNationalité() == listS[j].GetNomSalle())
+                        s = listS[j];
+
+                }
+
+                m.CreerOeuvre(listO[i], listO[i].GetArtiste(), s);
+            }
+
+
+            return m;
         }
 
     }

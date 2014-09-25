@@ -31,3 +31,8 @@ C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\M
 C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\Musee.csprojResolveAssemblyReference.cache
 C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\bin\Debug\Musee.exe
 C:\Users\Root\Desktop\Classes métier et de test (CONSOLE)\Musee\bin\Debug\Musee.pdb
+C:\Mega\PPE\ppe_musee_celestin\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\Musee.exe
+C:\Mega\PPE\ppe_musee_celestin\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\Musee.pdb
+C:\Mega\PPE\ppe_musee_celestin\Classes métier et de test (CONSOLE)\Musee\bin\Debug\Musee.exe
+C:\Mega\PPE\ppe_musee_celestin\Classes métier et de test (CONSOLE)\Musee\bin\Debug\Musee.pdb
+C:\Mega\PPE\ppe_musee_celestin\Classes métier et de test (CONSOLE)\Musee\obj\x86\Debug\Musee.csprojResolveAssemblyReference.cache

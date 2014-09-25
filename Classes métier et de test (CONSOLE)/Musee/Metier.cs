@@ -163,6 +163,7 @@ namespace METIER
                 return false;
 
             this.listOeuvre.Add(new Oeuvre(uneOeuvre.GetNomOeuvre(), uneOeuvre.GetPrixOeuvre(), uneOeuvre.GetArtiste()));
+            this.nbOeuvres++;
 
             return true;
         }
@@ -174,6 +175,7 @@ namespace METIER
                 return false;
 
             bool b = this.listOeuvre.Remove(uneOeuvre);
+            this.nbOeuvres--;
 
             return true;
 
@@ -214,6 +216,7 @@ namespace METIER
             else
             {
                 aAfficher += "SALLE : " + this.nomSalle + " Montant d'assurance : " + this.montantAssurance + "\n";
+                aAfficher += "Il y a " + this.nbOeuvres + " oeuvre(s)\n";
 
                 for (int i = 0; i < this.listOeuvre.Count; i++)
                 {
